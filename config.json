@@ -1,0 +1,25 @@
+{
+  "source": ["**/*.tokens.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "colors.scss",
+          "format": "scss/variables"
+        }
+      ]
+    },
+    "js": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "colors.js",
+          "format": "javascript/es6"
+        }
+      ]
+    }
+  }
+}
