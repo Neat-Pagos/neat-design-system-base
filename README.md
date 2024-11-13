@@ -13,13 +13,13 @@
 2. Then, install the package with:
 
     ```bash
-    yarn add git+https://<TOKEN>@github.com/Neat-Pagos/neat-design-system-base.git
+    yarn add git+https://<TOKEN>@github.com/Neat-Pagos/neat-design-system-base.git#vX.X.X
     ```
 
     or
 
     ```bash
-    npm install git+https://<TOKEN>@github.com/Neat-Pagos/neat-design-system-base.git
+    npm install git+https://<TOKEN>@github.com/Neat-Pagos/neat-design-system-base.git#vX.X.X
     ```
 
 ## Usage
