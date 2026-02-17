@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "neat-design-system-base",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "build/js/colors.js",
   "types": "build/js/colors.d.ts",
   "style": "build/css/colors.scss",
