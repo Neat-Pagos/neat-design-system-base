@@ -4,20 +4,17 @@
     "css": {
       "transformGroup": "css",
       "buildPath": "build/css/",
-      "files": [
-        {
-          "destination": "colors.scss",
-          "format": "scss/variables"
-        }
-      ]
+      "files": [{ "destination": "colors.scss", "format": "scss/variables" }]
     },
     "js": {
       "transformGroup": "js",
       "buildPath": "build/js/",
       "files": [
+        { "destination": "colors.js", "format": "javascript/es6" },
         {
-          "destination": "colors.js",
-          "format": "javascript/es6"
+          "destination": "colors.d.ts",
+          "format": "typescript/es6-declarations",
+          "options": { "outputStringLiterals": true }
         }
       ]
     }
